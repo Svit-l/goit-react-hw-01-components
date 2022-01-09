@@ -1,0 +1,65 @@
+.profile {
+  margin: 0 auto;
+  padding: 70px;
+  text-align: center;
+  background-color: rgb(245, 246, 248);
+  width: 260px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12), 0px 3px 3px rgba(0, 0, 0, 0.14),
+    0px 3px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.description {
+  padding: 30px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12), 0px 3px 3px rgba(0, 0, 0, 0.14),
+    0px 3px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 4px 4px 0 0;
+}
+
+.avatar {
+  height: 80px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 20px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.tag {
+  display: block;
+  font-size: 14px;
+  color: #757575;
+}
+
+.location {
+  display: block;
+  font-size: 14px;
+  color: #757575;
+}
+
+.stats {
+  background-color: rgb(237, 239, 245);
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12), 0px 3px 3px rgba(0, 0, 0, 0.14),
+    0px 3px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 4px 4px;
+}
+
+.label {
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.quantity {
+  font-weight: 600;
+  font-size: 16px;
+}
