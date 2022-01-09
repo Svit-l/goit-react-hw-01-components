@@ -1,13 +1,10 @@
 import PropTypes from 'prop-types';
 import styles from './Statistics.module.css';
-
-function getRandomHexColor() {
-  return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
-}
+import { getRandomHexColor } from './ColorRender.js';
 
 export const Statistics = ({ stats, title }) => {
   const statWrapWidth = `${stats.length * 50}px`;
-  console.log(statWrapWidth);
+  // console.log(statWrapWidth);
   // console.log(title);
   return (
     <section className={styles.statistics} style={{ width: statWrapWidth }}>
