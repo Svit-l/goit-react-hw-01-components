@@ -1,4 +1,4 @@
-.friend__list {
+.friendList {
   margin: 0 auto;
   text-align: center;
 }
@@ -27,7 +27,7 @@
   background-color: green;
 }
 
-.status__false {
+.statusFalse {
   display: block;
   width: 20px;
   height: 20px;

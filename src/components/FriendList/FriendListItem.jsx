@@ -2,11 +2,11 @@ import PropTypes from 'prop-types';
 import s from './Friends.module.css';
 
 export const FriendListItem = ({ avatar, name, isOnline }) => {
-  const isOnlineColor = isOnline ? s.status : s.status__false;
+  const statusColor = isOnline ? s.status : s.statusFalse;
 
   return (
     <li className={s.item}>
-      <span className={isOnlineColor}>{isOnline}</span>
+      <span className={statusColor}>{isOnline}</span>
       <img
         className={s.avatar}
         src={avatar}

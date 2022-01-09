@@ -9,7 +9,7 @@ export const Statistics = ({ stats, title }) => {
   return (
     <section className={styles.statistics} style={{ width: statWrapWidth }}>
       {title && <h2 className={styles.title}>{title}</h2>}
-      <ul className={styles.stat__list}>
+      <ul className={styles.statisticList}>
         {stats.map(s => (
           <li
             key={s.id}
@@ -33,13 +33,3 @@ Statistics.propTypes = {
     })
   ),
 };
-
-// function colorRender({ dat }) {
-//   console.log(dat);
-//   let statsSum = 0;
-//   dat.map(d => {
-//     return (statsSum += 1);
-//   });
-// }
-
-// console.log(colorRender());
