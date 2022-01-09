@@ -24,7 +24,15 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: aqua;
+  background-color: green;
+}
+
+.status__false {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
 }
 
 .avatar {
