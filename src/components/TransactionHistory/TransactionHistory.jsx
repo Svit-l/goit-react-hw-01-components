@@ -6,7 +6,7 @@ export const TransactionHistory = ({ items }) => {
   let trNumber = 0;
   const transactionRender = items.map(item => {
     trNumber = trNumber + 1;
-    console.log(trNumber);
+    // console.log(trNumber);
     const trColorStyle = trNumber % 2 !== 0 ? '#0000001f' : 'white';
     return (
       <tr key={item.id} style={{ backgroundColor: trColorStyle }}>
